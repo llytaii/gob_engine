@@ -3,9 +3,8 @@
 namespace GOB 
 {
 	Action::Action()
-	{
-		m_id = static_id++;
-	}
+		: m_id{ static_id++ }
+	{}
 
 	float Action::get_effect_for_goal(std::string _goal_name)
 	{

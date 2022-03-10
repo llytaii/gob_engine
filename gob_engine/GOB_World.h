@@ -27,8 +27,8 @@ namespace GOB
 
 
         // npcs
-        GOB_NPC& add_npc(GOB_NPC _npc);
-        GOB_NPC& get_npc(ClassNPC_t* _npc);
+        GOB_NPC* add_npc(GOB_NPC _npc);
+        GOB_NPC* get_npc(ClassNPC_t* _npc);
 
         // etc
         bool add_action_to_npc(int _id, ClassNPC_t* _npcs);
