@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="game_engine">
+      <UniqueIdentifier>{a1787482-4c6c-4b21-bdd2-b4a6e1697567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gob_engine">
+      <UniqueIdentifier>{ede0e786-f0c2-479e-be0e-ff3da3bfd0e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NPC.cpp">
+      <Filter>game_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>game_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>gob_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Goal.cpp">
+      <Filter>gob_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Reasoner.cpp">
+      <Filter>gob_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GOB_World.cpp">
+      <Filter>gob_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GOB_NPC.cpp">
+      <Filter>gob_engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NPC.h">
+      <Filter>game_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>game_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>gob_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Goal.h">
+      <Filter>gob_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Reasoner.h">
+      <Filter>gob_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GOB_NPC.h">
+      <Filter>gob_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GOB_World.h">
+      <Filter>gob_engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
