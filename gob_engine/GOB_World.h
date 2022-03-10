@@ -13,20 +13,22 @@ namespace GOB
     public:
         // actions
         int add_action(Action _action);
+        void remove_action(int _id);
         Action* get_action(int _id);
 
         // game objects
-        int add_game_object_action(Action _action, ClassGameObject_t* _game_object);
         bool add_game_object(ClassGameObject_t* _game_object, int _id);
+        int add_game_object_action(Action _action, ClassGameObject_t* _game_object);
 
 
         // goals
 
 
 
+
         // npcs
-        void add_npc(GOB_NPC _npc);
-        void get_npc(ClassNPC_t* _npc_ptr);
+        GOB_NPC& add_npc(GOB_NPC _npc);
+        GOB_NPC& get_npc(ClassNPC_t* _npc);
 
         // etc
         bool add_action_to_npc(int _id, ClassNPC_t* _npcs);
