@@ -140,22 +140,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Action.h" />
-    <ClInclude Include="GOB_World.h" />
-    <ClInclude Include="GameObject.h" />
-    <ClInclude Include="Goal.h" />
-    <ClInclude Include="NPC.h" />
-    <ClInclude Include="GOB_NPC.h" />
-    <ClInclude Include="Reasoner.h" />
+    <ClInclude Include="action.h" />
+    <ClInclude Include="World.h" />
+    <ClInclude Include="goal.h" />
+    <ClInclude Include="IGameObject.h" />
+    <ClInclude Include="INPC.h" />
+    <ClInclude Include="reasoner.h" />
+    <ClInclude Include="types.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Action.cpp" />
-    <ClCompile Include="GOB_World.cpp" />
-    <ClCompile Include="GameObject.cpp" />
-    <ClCompile Include="Goal.cpp" />
-    <ClCompile Include="NPC.cpp" />
-    <ClCompile Include="GOB_NPC.cpp" />
-    <ClCompile Include="Reasoner.cpp" />
+    <ClCompile Include="action.cpp" />
+    <ClCompile Include="World.cpp" />
+    <ClCompile Include="goal.cpp" />
+    <ClCompile Include="IGameObject.cpp" />
+    <ClCompile Include="INPC.cpp" />
+    <ClCompile Include="reasoner.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

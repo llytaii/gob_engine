@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\llytaii\game_engineering\bachelor\gob_engine\testing\main.cpp(11,34): error C2371: "map1": Neudefinition; unterschiedliche Basistypen
+C:\Users\llytaii\game_engineering\bachelor\gob_engine\testing\main.cpp(10): message : Siehe Deklaration von "map1"

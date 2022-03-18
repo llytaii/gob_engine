@@ -9,48 +9,45 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="NPC.cpp">
-      <Filter>game_engine</Filter>
-    </ClCompile>
-    <ClCompile Include="GameObject.cpp">
-      <Filter>game_engine</Filter>
-    </ClCompile>
-    <ClCompile Include="Action.cpp">
+    <ClCompile Include="action.cpp">
       <Filter>gob_engine</Filter>
     </ClCompile>
-    <ClCompile Include="Goal.cpp">
+    <ClCompile Include="goal.cpp">
       <Filter>gob_engine</Filter>
     </ClCompile>
-    <ClCompile Include="Reasoner.cpp">
+    <ClCompile Include="reasoner.cpp">
       <Filter>gob_engine</Filter>
     </ClCompile>
-    <ClCompile Include="GOB_World.cpp">
+    <ClCompile Include="World.cpp">
       <Filter>gob_engine</Filter>
     </ClCompile>
-    <ClCompile Include="GOB_NPC.cpp">
+    <ClCompile Include="IGameObject.cpp">
+      <Filter>gob_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="INPC.cpp">
       <Filter>gob_engine</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="NPC.h">
-      <Filter>game_engine</Filter>
-    </ClInclude>
-    <ClInclude Include="GameObject.h">
-      <Filter>game_engine</Filter>
-    </ClInclude>
-    <ClInclude Include="Action.h">
+    <ClInclude Include="action.h">
       <Filter>gob_engine</Filter>
     </ClInclude>
-    <ClInclude Include="Goal.h">
+    <ClInclude Include="goal.h">
       <Filter>gob_engine</Filter>
     </ClInclude>
-    <ClInclude Include="Reasoner.h">
+    <ClInclude Include="reasoner.h">
       <Filter>gob_engine</Filter>
     </ClInclude>
-    <ClInclude Include="GOB_NPC.h">
+    <ClInclude Include="World.h">
       <Filter>gob_engine</Filter>
     </ClInclude>
-    <ClInclude Include="GOB_World.h">
+    <ClInclude Include="types.h">
+      <Filter>gob_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameObject.h">
+      <Filter>gob_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="INPC.h">
       <Filter>gob_engine</Filter>
     </ClInclude>
   </ItemGroup>

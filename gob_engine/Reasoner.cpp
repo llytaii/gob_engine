@@ -1,1 +1,5 @@
-#include "Reasoner.h"
+#include "reasoner.h"
+
+namespace GOB
+{
+}
