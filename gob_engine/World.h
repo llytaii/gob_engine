@@ -20,7 +20,8 @@ namespace GOB
         void update(float _delta);
 
         // npcs
-        std::shared_ptr<INPC> add_npc(INPC* _npc);
+        std::shared_ptr<INPC> add_npc(INPC _npc);
+        std::shared_ptr<INPC> add_npc(std::shared_ptr <INPC> _npc);
 
         // game objects
         void link_game_object_to_all_npcs(std::shared_ptr<IGameObject> _game_object);
